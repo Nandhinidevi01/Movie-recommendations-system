@@ -43,6 +43,8 @@ for movie in sorted_similar_movies:
   if (i<30):
     print(i, '.',title_from_index)
     i+=1
+  else:
+    print("No close match found for the movie title you entered.")
 if 'sorted_similar_movies' in locals():
     i = 1
     for movie in sorted_similar_movies:
